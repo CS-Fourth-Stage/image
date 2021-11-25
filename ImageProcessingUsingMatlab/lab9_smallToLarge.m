@@ -1,4 +1,5 @@
-clear all
+% clear all
+clear
 clc
 
 % g=rgb2gray(imread('peppers.png'));
@@ -10,8 +11,8 @@ b=g(v,c);
 display(v);
 display(c);
 
-display(g);
-display(b);
+disp(g);
+disp(b);
 % imshow(g);
 % figure;
 % imshow(b);    

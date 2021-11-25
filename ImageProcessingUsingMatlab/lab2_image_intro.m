@@ -1,5 +1,7 @@
-clear all
+% clear all
+clear
 clc
+
 i1=imread('concordorthophoto.png');
 i2=imread('coins.png');
 i3=imread('football.jpg');

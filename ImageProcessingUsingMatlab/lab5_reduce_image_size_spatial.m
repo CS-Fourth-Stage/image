@@ -1,6 +1,8 @@
-clear all
+% clear all
+clear
 clc
 
+% spatial domain
 t=imread('cameraman.tif');
 
 subplot(2,4,1);

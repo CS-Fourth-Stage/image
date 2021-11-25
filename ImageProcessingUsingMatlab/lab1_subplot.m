@@ -1,4 +1,5 @@
-clear all
+% clear all
+clear
 clc
 % Comment/Uncomment. Windows: Ctrl + R/Ctrl + T
 

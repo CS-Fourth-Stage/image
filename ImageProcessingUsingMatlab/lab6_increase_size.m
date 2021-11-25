@@ -1,4 +1,5 @@
-clear all
+% clear all
+clear
 clc
 
 % x=[11 22;33 44];
@@ -14,5 +15,5 @@ for i=1:row*2
         arr(i,j)=x(n,m);
     end
 end
-display(x);
-display(arr);
+disp(x);
+disp(arr);

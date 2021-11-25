@@ -1,4 +1,5 @@
-clear all
+% clear all
+clear
 clc
 %f = [-0.5 0.5;0.75 1.5];
 

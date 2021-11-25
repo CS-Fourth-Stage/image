@@ -1,10 +1,11 @@
-clear all
+% clear all
+clear
 clc
 % Zoom-in using zero hold method
 
 origin_image=[3 4; 5 7;10 20];
 % origin_image=[3 4; 5 7];
-display(origin_image);
+disp(origin_image);
 [n, m]=size(origin_image);
 n=n*2-1;
 m=m*2-1;
@@ -12,7 +13,7 @@ m=m*2-1;
 new_image=zeros(n,m);
 [row, col]=size(new_image);
 new_image(1:2:row,1:2:col)=origin_image(:,:);
-display(new_image);
+disp(new_image);
 
 % Working on row
 for i=1:2:row
@@ -21,7 +22,7 @@ for i=1:2:row
         new_image(i,j)=num;
     end
 end
-display(new_image);
+disp(new_image);
 
 % Working on column
 for i=2:2:row
@@ -30,5 +31,5 @@ for i=2:2:row
         new_image(i,j)=num;
     end
 end
-display(new_image);
+disp(new_image);
 

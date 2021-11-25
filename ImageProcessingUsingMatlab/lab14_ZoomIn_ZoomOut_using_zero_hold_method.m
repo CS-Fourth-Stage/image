@@ -5,7 +5,8 @@
 % 2- Your program should display the original and result after 
 % zoom in two different windows. 
 
-clear all
+% clear all
+clear
 clc
 % Hozan
 % Zoom-in using zero hold method

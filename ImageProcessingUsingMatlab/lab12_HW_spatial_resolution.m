@@ -1,9 +1,9 @@
-
-clear all
+% clear all
+clear
 clc
 % assignment Number: 1
 % represent the image from 1 bit to 8 bit
-% reduce the bit
+% reduce the bit spatial domain
 
 myImage=imread('cameraman.tif');
 [row, col]=size(myImage);
@@ -11,7 +11,7 @@ myImage=imread('cameraman.tif');
 redbit=myImage;
 
 subplot(2,4,1);
-display(imshow(redbit));title('8 bit');
+disp(imshow(redbit));title('8 bit');
 
 for k=1:7
     for i=1:row
@@ -21,7 +21,7 @@ for k=1:7
     end
     
     subplot(2,4,k+1);
-    display(imshow(redbit));title('bit');
+    disp(imshow(redbit));title('bit');
 
 end
 

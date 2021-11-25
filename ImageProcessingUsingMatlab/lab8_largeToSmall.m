@@ -1,10 +1,11 @@
-clear all
+% clear all
+clear
 clc
 
 % g=rgb2gray(imread('peppers.png'));
 g=[10 20 30 40;50 60 70 80;11 22 33 44;55 66 77 88];
 
-[r c]=size(g);
+[r, c]=size(g);
 t=zeros(size(g)/2);
 temp=1;
 gemp=1;
@@ -18,8 +19,8 @@ for i=1:2:r
     gemp=1;
 end
 
-display(g);
-display(t); 
+disp(g);
+disp(t); 
 
 % img_resized=uint8(t);
 % figure;
